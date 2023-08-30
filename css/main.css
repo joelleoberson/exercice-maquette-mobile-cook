@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -23,6 +20,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  width: 320px;
+  margin: 0 auto;
 
   font-size: 1rem;
   line-height: 1.5rem;
@@ -45,8 +44,10 @@ video {
 
 h1 {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 300;
   text-align: center;
+  margin: 25px;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 h2 {
@@ -54,11 +55,14 @@ h2 {
   line-height: 1.2;
   text-align: center;
   padding: 20px;
+  font-family: "Sorts Mill Goudy", serif;
 }
 
 h3 {
   text-align: center;
   padding: 20px;
+  font-family: libre franklin;
+  font-weight: 700;
 }
 
 .background-gray {
@@ -85,6 +89,16 @@ footer a {
   font-size: 16px;
 }
 
+.mill-goud {
+  font-family: "Sorts Mill Goudy", serif;
+  text-align: start;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Libre Franklin", sans-serif;
+}
+
 .red {
   border-radius: 10px;
   font-family: libre Franklin;
@@ -105,8 +119,10 @@ p {
   font-size: 20px;
   margin: 10px;
   line-height: 1.2;
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 700;
 }
- 
+
 hr {
   border-bottom: #000 2px solid;
   margin: 10px;
